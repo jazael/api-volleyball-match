@@ -14,10 +14,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "team")
+@Table(name = "match")
 @Getter
 @Setter
-public class Team {
+public class Match {
 
 	@GeneratedValue
 	@Id
@@ -26,6 +26,9 @@ public class Team {
 
 	@Column(name = "name")
 	private String name;
+
+	@Column(name = "status")
+	private String status;
 
 	@Column(name = "fechacreacion")
 	@CreationTimestamp
