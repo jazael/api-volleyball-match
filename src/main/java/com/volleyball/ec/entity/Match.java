@@ -24,8 +24,8 @@ public class Match {
 	@Column(name = "id")
 	private long id;
 
-	@Column(name = "name")
-	private String name;
+	@Column(name = "versus")
+	private String versus;
 
 	@Column(name = "status")
 	private String status;

@@ -40,6 +40,9 @@ public class MatchDetail {
 	
 	@Column(name = "puntaje")
 	private Integer puntaje;
+	
+	@Column(name = "status")
+	private String status;
 
 	@Column(name = "fechacreacion")
 	@CreationTimestamp
